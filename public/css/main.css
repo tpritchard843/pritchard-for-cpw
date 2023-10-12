@@ -2350,7 +2350,7 @@
 						background: #e5e5e5;
 						content: '';
 						display: block;
-						height: 43%;
+						height: 45%;
 						margin-left: -3em;
 						position: absolute;
 						top: 0;
@@ -2386,7 +2386,7 @@
 			background-color: white;
 		}
 			.box.special.featured-pages .featured-page-header {
-				color: white;
+				color: #001D3D;
 			}
 
 		.box .image.featured {
