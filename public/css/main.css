@@ -2291,7 +2291,7 @@
 	.box {
 		background: #fff;
 		border-radius: 6px;
-		box-shadow: 0 2px 0 0 #e5e5e5;
+		box-shadow: 0 5px 0 0 rgba(0, 29, 61, 0.5);
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
@@ -3015,7 +3015,7 @@
 		height: 5em;
 		left: 0;
 		line-height: 3.25em;
-		position: fixed;
+		/* position: fixed; */
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -3561,6 +3561,11 @@
 				object-fit: contain;
 				margin-top: -35px;
 			}
+
+			/* box */
+		.box .image.featured .family-row {
+			width: 100%;
+		}
 
 
 	}
