@@ -1,5 +1,5 @@
 module.exports = {
   getIndex: (req,res)=>{
-      res.sendFile('/public/html/index.html');
+      res.sendFile('index.html', {root: 'public/html'});
   }
 }
